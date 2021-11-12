@@ -245,59 +245,59 @@ body {
     margin-bottom: 30px;
 }
 
-.place-list{
-    flex-wrap:wrap;
+.place-list {
+    flex-wrap: wrap;
 }
 
-.place-item{
+.place-item {
     flex-direction: column;
     margin-bottom: 23px;
     width: 374px;
-
 }
-.place-item:not(:nth-child(3n)){
+
+.place-item:not(:nth-child(3n)) {
     margin-right: 23px;
 }
 
-.place-text{
+.place-text {
     flex-direction: column;
     padding: 40px;
 }
 
-.place-paragraph{
+.place-paragraph {
     margin: 0;
     margin-bottom: 16px;
     justify-content: space-between;
-
 }
 
-.place-item-subtitle{
+.place-item-subtitle {
     max-width: 190px;
 }
-.place-title-item{
+
+.place-title-item {
     margin: 0;
     margin-bottom: 16px;
-
 }
 
-.place-desc{
+.place-desc {
     margin: 0;
     margin-bottom: 20px;
 }
 
-.place-link{
+.place-link {
     padding: 13px 20px;
     border: 1px solid red;
     margin-right: auto;
 }
 
-.place-item-last{
+.place-item-last {
     flex-direction: column;
     justify-content: flex-end;
-    background-image: url(/img/place-9.jpg); 
+    background-image: url(/img/place-9.jpg);
     background-repeat: no-repeat;
 }
-.place-text-last{
+
+.place-text-last {
     text-align: center;
-    color:#FFFFFF;
+    color: #FFFFFF;
 }
