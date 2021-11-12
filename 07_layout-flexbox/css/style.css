@@ -1,0 +1,123 @@
+/* global */
+.outline{
+    outline: 1px solid red;
+}
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    min-width: 1170px;
+    font-family: 'font', sans-serif;
+}
+
+/* help */
+
+.container {
+    width: 1200px;
+    padding: 0 15;
+    margin: auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.list-reset {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.btn-reset {
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+/* header */
+
+.header {
+    flex-direction: column;
+    margin-bottom: 70px;
+    padding: 30px;
+}
+
+.header-top {
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.header-img {
+    margin-right: 30px;
+}
+.header-link {
+    margin-left: auto;
+}
+
+.header-nav{
+    padding: 14px 25px;
+} 
+.header-nav-item:not(:last-child){
+    align-items: center;
+    /* padding-right: 30px; */
+}
+
+.header-nav-list{
+    margin-right: auto; 
+    align-items: center;
+}
+
+.header-buttons{
+    /* margin-left: auto; */
+}
+ .header-button{
+    padding: 20px;
+}
+
+.header-button:not(:last-child){
+    margin-right: 40px;
+}
+
+
+/* specials */
+
+.specials-title{
+    margin: 0;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+.specials-list-left{
+    flex-direction:column;
+}
+
+.special-list{
+    align-items: flex-start;
+    justify-content: stretch;
+    width: 100%;
+}
+
+.title-specials{
+    margin: 0;
+    padding: 0;
+}
+.specials-item{
+    width: 573px;
+}
