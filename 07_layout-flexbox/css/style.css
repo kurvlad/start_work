@@ -30,7 +30,7 @@ body {
 
 .container {
     width: 1200px;
-    padding: 0 15;
+    padding: 0 15px;
     margin: auto;
 }
 
@@ -56,7 +56,7 @@ body {
 .header {
     flex-direction: column;
     margin-bottom: 70px;
-    padding: 30px;
+    padding: 30px 0;
 }
 
 .header-top {
@@ -68,9 +68,10 @@ body {
     margin-right: 30px;
 }
 
-.header-link {
-    margin-left: auto;
+.header-number{
+    margin-right: auto;
 }
+
 
 .header-nav {
     padding: 14px 25px;
@@ -87,7 +88,6 @@ body {
 }
 
 .header-buttons {
-    /* margin-left: auto; */
 }
 
 .header-button {
@@ -102,8 +102,9 @@ body {
 
 .specials-title {
     margin: 0;
-    margin-left: 40px;
     margin-bottom: 20px;
+    padding-left: 40px;
+    
 }
 
 .specials-list-left {
@@ -131,8 +132,12 @@ body {
 
 .specials-item-3 {
     height: 100%;
+    outline: auto;
+    justify-content: flex-end;
 }
-
+/* .specials-list-right{
+    height: 100%;
+} */
 .specials-list-left {
     margin-right: 23px;
 }
@@ -152,8 +157,10 @@ body {
 }
 
 .specials-item-3-text {
-    margin-top: auto;
+
     flex-direction: column;
+    
+
 }
 
 .specials {
@@ -168,7 +175,8 @@ body {
 
 .about-title {
     margin: 0;
-    margin-left: 40px;
+    margin-bottom: 11px;
+    padding-left: 40px;
 }
 
 .about-text {
@@ -184,7 +192,7 @@ body {
 
 .services-title {
     margin: 0;
-    margin-left: 40px;
+    padding-left: 40px;
     margin-bottom: 20px;
 }
 
@@ -216,7 +224,7 @@ body {
 .plus-title {
     margin: 0;
     margin-bottom: 30px;
-    margin-left: 40px;
+    padding-left: 40px;
 }
 
 .plus-list {
@@ -227,20 +235,32 @@ body {
     width: 275px;
     flex-direction: column;
     margin-bottom: 23px;
+    margin-right: 23px;
     padding: 40px;
     padding-left: 45px;
 }
 
+.plus-item:nth-child(4n){
+    margin-right: 0;
+}
+/* 
 .plus-item:not() .plus-item:not(nth-child(4n)) {
     margin-right: 23px;
-}
+} */
 
 /* place */
 
 .place-title {
     margin: 0;
-    margin-left: 40px;
+    padding-left: 40px;
     margin-bottom: 30px;
+}
+
+.plus-item-text{
+    margin: 0;
+}
+.plus-item-svg{
+    margin-bottom: 10px;
 }
 
 .place-list {
