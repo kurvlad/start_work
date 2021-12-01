@@ -928,55 +928,55 @@
   </main>
 
   <section class="want">
-    <div class="container">
-      <div class="want-in">
-        <h2 class="title2 want-title">Хочу тур</h2>
-        <div class="form-section">
-          <form action="https://jsonplaceholder.typicode.com/posts" method="post" class="form flex">
+    <div class="container want-in">
+      <!-- <div class="want-in"> -->
+      <h2 class="title2 want-title">Хочу тур</h2>
+      <div class="form-section">
+        <form action="https://jsonplaceholder.typicode.com/posts" method="post" class="form flex">
 
 
 
 
-            <fieldset class="fieldset">
-              <legend class="legend">Город вылета</legend>
-              <select name="Город вылета" class="select input">
-                <option value="Санкт-Петербург">Санкт-Петербург</option>
-                <option value="Москва">Москва</option>
-                <option value="Казань">Казань</option>
-                <option value="Мурманск">Мурманск</option>
-              </select>
-            </fieldset>
+          <fieldset class="fieldset">
+            <legend class="legend">Город вылета</legend>
+            <select name="Город вылета" class="select input">
+              <option value="Санкт-Петербург">Санкт-Петербург</option>
+              <option value="Москва">Москва</option>
+              <option value="Казань">Казань</option>
+              <option value="Мурманск">Мурманск</option>
+            </select>
+          </fieldset>
 
 
-            <fieldset class="fieldset">
-              <legend class="legend">Страна</legend>
-              <select name="Страна" class="select input">
-                <option value="Австралия">Австралия</option>
-                <option value="Англия">Англия</option>
-                <option value="Испания">Испания</option>
-              </select>
-            </fieldset>
+          <fieldset class="fieldset">
+            <legend class="legend">Страна</legend>
+            <select name="Страна" class="select input">
+              <option value="Австралия">Австралия</option>
+              <option value="Англия">Англия</option>
+              <option value="Испания">Испания</option>
+            </select>
+          </fieldset>
 
-            <fieldset class="fieldset">
-              <legend class="legend">Дата прибытия</legend>
-              <input type="date" class="input" name="Дата прибытия">
-            </fieldset>
+          <fieldset class="fieldset">
+            <legend class="legend">Дата прибытия</legend>
+            <input type="date" class="input" name="Дата прибытия">
+          </fieldset>
 
-            <fieldset class="fieldset">
-              <legend class="legend">Ночей</legend>
-              <input type="number" min="1" class="input" placeholder="6" name="ночей">
+          <fieldset class="fieldset">
+            <legend class="legend">Ночей</legend>
+            <input type="number" min="1" class="input" placeholder="6" name="ночей">
 
-            </fieldset>
+          </fieldset>
 
-            <fieldset class="fieldset">
-              <legend class="legend">Туристы</legend>
-              <input type="number" min="1" required class="input" placeholder="2" name="Туристы">
-            </fieldset>
+          <fieldset class="fieldset">
+            <legend class="legend">Туристы</legend>
+            <input type="number" min="1" required class="input" placeholder="2" name="Туристы">
+          </fieldset>
 
-            <button class="btn-reset btn-form">Найти</button>
-          </form>
-        </div>
+          <button class="btn-reset btn-form">Найти</button>
+        </form>
       </div>
+      <!-- </div> -->
     </div>
   </section>
 
@@ -987,39 +987,40 @@
         <div class="contact-list-img">
           <address class="address">
             <ul class="contact-list list-reset">
-              <li class="contact-item list-reset">
-                <ul class="add list-reset flex">
-                  <li class="list-title">Адрес</li>
-                  <li class="add-text list-add">
-                    <address class="add-name">Москва, улица Юности, дом 5 строение 4, офис 2</address>
-                  </li>
-                </ul>
+              <li class="contact-item list-reset flex">
+                <h4 class="contact-left">Адрес</h4>
+                <div class="list-add">
+                  <address class="add-name">Москва, улица Юности, дом 5 строение 4, офис 2</address>
+                </div>
+
               </li>
-              <li class="contact-item list-reset">
-                <ul class="add list-reset flex ">
-                  <li class="list-title">Телефоны</li>
-                  <li class="phone list-add ">
-                    <p><a href="tel:+74995356434" class="phone-number">+7 (499) 535-64-34</a></p>
-                    <p><a href="tel:+74995356434" class="phone-number">+7 (499) 535-64-34</a></p>
-                  </li>
-                </ul>
+
+              <li class="contact-item list-reset flex">
+                <h4 class="contact-left">Телефоны</h4>
+                <div class="list-add">
+                  <p class="phone list-add"><a href="tel:+74995356434" class="phone-number">+7 (499) 535-64-34</a>
+                  </p>
+                  <p class="phone list-add"><a href="tel:+74995356434" class="phone-number">+7 (499) 535-64-34</a>
+                  </p>
+                </div>
               </li>
-              <li class="contact-item list-reset">
-                <ul class="add list-reset flex">
-                  <li class="list-title">E-mail</li>
-                  <li class="mail list-add">
-                    <a href="mailto:lg.oona@mail.ru">lg.oona@mail.ru</a>
-                    <p class="mail-descr">по вопросам бронирования</p>
-                    <a href="mailto:hotels.ln@mail.ru">hotels.ln@mail.ru</a>
-                    <p class="mail-descr">по вопросам сотрудничества</p>
-                  </li>
-                </ul>
+
+              <li class="contact-item list-reset flex">
+                <h4 class="contact-left">E-mail</h4>
+                <div class="list-add">
+                  <a href="mailto:lg.oona@mail.ru">lg.oona@mail.ru</a>
+                  <p class="mail-descr">по вопросам бронирования</p>
+                  <a href="mailto:hotels.ln@mail.ru">hotels.ln@mail.ru</a>
+                  <p class="mail-descr">по вопросам сотрудничества</p>
+                </div>
               </li>
-              <li class="contact-item list-reset">
-                <ul class="add list-reset flex">
-                  <li class="list-title">График</li>
-                  <li class="shedule list-add">Понедельник - пятница, с 10:00 до 19:00</li>
-                </ul>
+
+              <li class="contact-item list-reset flex">
+                <h4 class="contact-left">График</h4>
+                <div class="list-add">
+                  <p>Понедельник - пятница, с 10:00 до 19:00</p>
+                </div>
+
               </li>
             </ul>
             <button class="btn-reset btn-contact">Построить маршрут</button>
@@ -1029,39 +1030,40 @@
     </div>
   </section>
 
+
+
+
+
+
+
+
   <footer class="footer">
     <div class="container">
       <div class="foot flex">
-        <div class="footer-list flex">
-          <ul class="foot-list list-reset flex">
-            <li class="foot-item">
-              <ul class="foot-list-left list-reset">
-                <li class="foot-item-left">© 2012-2020 Управляющая компания Объединенной сети «Лагуна Хотелс»</li>
-                <li class="foot-item-left">Представленная на сайте информация носит справочный характер и не является
-                  публичной офертой</li>
-                <li class="foot-item-left">
-                  <p class="user-agree">Пользовательское соглашение</p>
-                </li>
-              </ul>
-            </li>
-            <li class="foot-item">
-              <address class="foot-add">
-                <ul class="foot-list-right list-reset">
-                  <li class="foot-item-right">
-                    <address class="foot-add-place">11710, улица Юности, дом 5 строение 4, офис 2</address>
-                  </li>
-                  <li class="foot-item-right">
-                    <p><a href="tel:+74995356434">+7 (499) 535-64-34</a></p>
-                    <p><a href="tel:+74950050544">+7 (495) 005-05-44</a></p>
-                  </li>
-                  <li class="foot-item-right">
-                    <p><a href="mailto:lg.oona@mail.ru">lg.oona@mail.ru</a></p>
-                    <p><a href="mailto:hotels.ln@mail.ru">hotels.ln@mail.ru</a></p>
-                  </li>
-                </ul>
-              </address>
-            </li>
-          </ul>
+        <div>
+          <div class="foot-text flex">
+            <div class="footer-left">
+              <p class="footer-left-p footer-left-p-1 foot-par">© 2012-2020 Управляющая компания Объединенной сети
+                «Лагуна
+                Хотелс»</p>
+              <p class="footer-left-p foot-par">Представленная на сайте информация носит справочный характер
+                и не является
+                публичной
+                офертой</p>
+            </div>
+            <div class="footer-right">
+              <address class="foot-add-place">11710, улица Юности, дом 5 строение 4, офис 2</address>
+              <section class="foot-phone">
+                <p class="foot-par"><a href="tel:+74995356434" class="foot-link">+7 (499) 535-64-34</a></p>
+                <p class="foot-par"><a href="tel:+74950050544" class="foot-link">+7 (495) 005-05-44</a></p>
+              </section>
+              <section class="foot-mail">
+                <p class="foot-par"><a href="mailto:lg.oona@mail.ru" class="foot-link">lg.oona@mail.ru</a></p>
+                <p class="foot-par"><a href="mailto:hotels.ln@mail.ru" class="foot-link">hotels.ln@mail.ru</a></p>
+              </section>
+            </div>
+          </div>
+          <p class="foot-link foot-par">Пользовательское соглашение</p>
         </div>
         <div class="footer-icon flex">
           <ul class="foot-icon-list flex list-reset">
@@ -1071,9 +1073,9 @@
             <li class="foot-icon-item "><a href="#" class="foot-icon-link foot-icon-item-4"></a></li>
             <li class="foot-icon-item "><a href="#" class="foot-icon-link foot-icon-item-5"></a></li>
           </ul>
-
         </div>
       </div>
+    </div>
     </div>
 
   </footer>
